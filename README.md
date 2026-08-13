@@ -1,28 +1,51 @@
-# API Testing Notes
+# API Testing Portfolio
 
-Personal reference notes on API concepts and testing. Covers GraphQL testing based on hands-on project experience, along with SOAP and WebSocket concepts studied for broader API testing knowledge.
+A collection of Postman API testing projects demonstrating practical API testing skills including authentication testing, query parameter validation, response validation, schema validation, and JavaScript assertions.
 
-## Topics Covered
+## Collections
 
-- API Testing Basics
-- HTTP Methods
-- HTTPS Status Codes
-- REST vs SOAP vs GraphQL
-- REST
-- SOAP
-- GraphQL
-- WebSocket
-- Postman Collections
-- Request & Response Validation
+### Ecommerce API Testing
+- Get All Products
+- Get Product By ID
+- Product Search
+- Pagination
+- Sorting Validation
 
-## Tools
+### Authentication API Testing
+- Valid Login
+- Invalid Credentials
+- Token Validation
 
+### Query Parameter Testing
+- Filtering
+- Search Parameters
+- Query Validation
+
+### Multi Query Parameter Testing
+- Multiple Filters
+- Sorting
+- Pagination
+
+## Testing Techniques Used
+
+- Functional Testing
+- Positive Testing
+- Negative Testing
+- Edge Case Testing
+- Response Validation
+
+## Tools & Technologies
+
+### Tools
 - Postman
+- Git
+- GitHub
 
-## Sample Public APIs Used
+### Language
+- JavaScript
 
-- https://dummyjson.com
-- https://jsonplaceholder.typicode.com
+### API Technology
+- REST API
 
 ## Author
 
