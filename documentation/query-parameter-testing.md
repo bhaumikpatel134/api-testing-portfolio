@@ -2,20 +2,21 @@
 
 ## Covered Scenarios
 
-### Search Parameters
+### Search By Name
+- Valid Name Search
+- Empty Name Search
+- Invalid Name Search
 
-- Valid Search
-- Empty Search
-- Invalid Search
+### Search By Username
+- Valid Username Search
+- Invalid Username Search
 
-### Filter Parameters
-
-- Single Filter
-- Invalid Filter
+### Multiple Parameters
+- Name and Username Validation
 
 ## Validations
 
 - Status Code Validation
-- Query Validation
 - Response Validation
-- Filter Result Validation
+- Query Parameter Validation
+- Result Accuracy Validation
