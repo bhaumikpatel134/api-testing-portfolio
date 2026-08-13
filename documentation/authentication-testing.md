@@ -2,13 +2,23 @@
 
 ## Covered Scenarios
 
+### Positive Testing
+
 - Valid Login
-- Invalid Login
-- Token Validation
+- Token Generation
+- Authorized Access
+
+### Negative Testing
+
+- Invalid Username
+- Invalid Password
+- Missing Credentials
+- Invalid Token
 - Unauthorized Access
 
 ## Validations
 
-- Status Codes
-- Response Structure
-- Authentication Logic
+- Status Code Validation
+- Authentication Validation
+- Response Validation
+- Error Message Validation
