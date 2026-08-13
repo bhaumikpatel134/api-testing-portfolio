@@ -5,8 +5,8 @@
 ### Positive Testing
 
 - Valid Login
-- Token Generation
-- Authorized Access
+- Get Current User
+- Refresh Token
 
 ### Negative Testing
 
@@ -14,11 +14,12 @@
 - Invalid Password
 - Missing Credentials
 - Invalid Token
-- Unauthorized Access
+- Missing Token
 
 ## Validations
 
 - Status Code Validation
+- Token Validation
 - Authentication Validation
 - Response Validation
-- Error Message Validation
+- Error Handling Validation
