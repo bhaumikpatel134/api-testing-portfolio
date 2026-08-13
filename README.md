@@ -1,17 +1,26 @@
 # API Testing Portfolio
 
-A collection of API testing projects demonstrating practical testing skills using Postman, REST APIs, and JavaScript assertions.
+A collection of API testing projects demonstrating practical testing skills using Postman, REST APIs, and JavaScript assertions against publicly available APIs.
 
 ## Overview
 
-This repository showcases API testing concepts through multiple Postman collections covering authentication, query parameters, filtering, sorting, pagination, and response validation.
+This repository showcases API testing concepts through multiple Postman collections covering authentication, query parameter validation, multi-query parameter validation, filtering, sorting, pagination, and response validation.
+
+## Project Highlights
+
+- Developed API test suites using Postman
+- Implemented JavaScript assertions for response validation
+- Designed positive, negative, and edge-case test scenarios
+- Performed authentication and authorization testing
+- Validated query parameters and multi-query parameter combinations
+- Created supporting documentation and test case artifacts
+- Practiced REST API testing using publicly available APIs
 
 ## Collections
 
 ### Ecommerce API Testing
-- Get All Products
-- Get Single Product
-- Search Products
+- Product Retrieval
+- Product Search
 - Pagination Testing
 - Sorting Testing
 - Negative Testing
@@ -21,6 +30,7 @@ This repository showcases API testing concepts through multiple Postman collecti
 - Invalid Credentials
 - Token Validation
 - Unauthorized Access Testing
+- Refresh Token Validation
 
 ### Query Parameter Testing
 - Search Parameters
@@ -28,10 +38,9 @@ This repository showcases API testing concepts through multiple Postman collecti
 - Query Validation
 
 ### Multi Query Parameter Testing
-- Filtering
-- Sorting
-- Pagination
-- Combined Query Validation
+- Multiple Query Validation
+- Data Accuracy Validation
+- Invalid Parameter Combinations
 
 ## Testing Techniques
 
@@ -42,6 +51,10 @@ This repository showcases API testing concepts through multiple Postman collecti
 - Response Validation
 - Status Code Validation
 - Authentication Testing
+- Authorization Testing
+- Data Validation
+- Query Parameter Validation
+- Business Logic Validation
 
 ## Tools & Technologies
 
@@ -70,10 +83,10 @@ api-testing-portfolio/
 │   └── query-parameter-api.postman_collection.json
 
 ├── documentation/
-│   ├── ecommerce-testing.md
 │   ├── authentication-testing.md
-│   ├── query-parameter-testing.md
-│   └── multi-query-parameter-testing.md
+│   ├── ecommerce-testing.md
+│   ├── multi-query-parameter-testing.md
+│   └── query-parameter-testing.md
 
 └── test-cases/
     ├── positive-scenarios.md
@@ -86,12 +99,15 @@ api-testing-portfolio/
 - API Testing
 - REST API Validation
 - Authentication Testing
+- Authorization Testing
 - Test Case Design
 - Response Validation
 - Query Parameter Testing
-- Filtering & Sorting Validation
+- Multi Query Parameter Testing
+- Filtering and Sorting Validation
 - Pagination Testing
 - JavaScript Assertions
+- Defect Identification
 
 ## Author
 
