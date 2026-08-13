@@ -2,24 +2,31 @@
 
 ## Covered Scenarios
 
-### Positive Testing
+### Login Testing
 
 - Valid Login
-- Get Current User
-- Refresh Token
-
-### Negative Testing
-
 - Invalid Username
 - Invalid Password
 - Missing Credentials
+
+### Token Validation
+
+- Valid Token
 - Invalid Token
 - Missing Token
+
+### User Profile
+
+- Get Current User
+
+### Session Management
+
+- Refresh Token
 
 ## Validations
 
 - Status Code Validation
-- Token Validation
 - Authentication Validation
+- Token Validation
 - Response Validation
 - Error Handling Validation
